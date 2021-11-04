@@ -6,11 +6,12 @@
 
 include("Class/ClassConexao.php");
 include("Class/ClassCrud.php");
-$Crud= new ClassCrud();
-echo "<h1>Cadastro</h1>";
-
 
 ?>
+<div class="Resultado"></div>
+<div class="Formulario">
+    <h1 class="center"> Cadastro </h1>
+</div>
 
 </div>
 

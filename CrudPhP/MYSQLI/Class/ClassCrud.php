@@ -24,7 +24,6 @@
             }
             array_unshift($callParametros, $Tipos);
             call_user_func_array(array($this->Crud,'bind_param'), $callParametros);
-
          
         }
          $this->Crud->execute();

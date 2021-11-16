@@ -8,3 +8,5 @@ ERRO RESOLVIDO:
 
 no mesmo teste está me retornando o seguinte erro: 
 Notice: Undefined property: ClassCrud::$crud in C:\xampp\htdocs\CrudPhP\PDO\Class\ClassCrud.php on line 39.
+
+

@@ -36,7 +36,7 @@ private function preparedStatements($Query , $Parametros){
     public function insertDB($Tabela , $Condicao , $Parametros){
 
   $this->preparedStatements("insert into {$Tabela} values({$Condicao})", $Parametros);
-  return $this->crud;
+  return $this->Crud;
     }
  }
 

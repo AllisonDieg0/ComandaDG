@@ -2,8 +2,8 @@
 include("../Includes/Variaveis.php");
 include("../Class/ClassCrud.php");
 
-$crud = new ClassCrud();
-$crud->insertDB(
+$Crud = new ClassCrud();
+$Crud->insertDB(
 
     "cadastro",
     "?,?,?,?",

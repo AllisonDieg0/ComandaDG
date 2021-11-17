@@ -1,4 +1,5 @@
-<?php 
+<?php
+ include("classConexao.php");
 
  class ClassCrud extends ClassConexao{
 

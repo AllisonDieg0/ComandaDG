@@ -5,7 +5,7 @@
 <div class="Formulario">
     <h1 class="center"> Cadastro De Pedidos</h1>
 
-    # Adicionei esse formulário para englobar as entradas e o botão
+  
     <form name="FormCadastro" id="Formcadastro" method="post" action="Controllers\ControllerCadastro.php">
         <div class="FormularioInput">
             Cliente: <br>

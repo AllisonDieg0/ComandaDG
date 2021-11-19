@@ -30,9 +30,9 @@ while($Fetch=$BFetch->fetch(PDO::FETCH_ASSOC)){
         <td><?php echo $Fetch['Pedido']; ?> </td>
         <td><?php echo $Fetch['obs']; ?> </td>
         <td>
-            <a href="visualizar.php"><img src="images/visu.png"alt="Visualizar"></a>
-            <a href="atualizacao.php"><img src="images/edit.png"alt="Editar"></a>
-            <a href="delete.php"><img src="images/delete.png"alt="Deletar"></a>
+            <a href="visualizar.php"><img src="images/visu.png" width=30px alt="Visualizar"></a>
+            <a href="atualizacao.php"><img src="images/edit.png" width=30px alt="Editar"></a>
+            <a href="delete.php"><img src="images/delete.png" width=30px alt="Deletar"></a>
         </td>
     </tr>
 

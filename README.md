@@ -13,4 +13,4 @@ Notice: Undefined property: ClassCrud::$crud in C:\xampp\htdocs\CrudPhP\PDO\Clas
 sempre que alterar o style.css atualize a pagina com Ctrl + F5 para limpar o cache.
 
 
-PARA ARRUMAR: Css da tabela  (.TabelaCrud) está com o tamnho errado.
+PARA ARRUMAR: Css da tabela  (.TabelaCrud) está com o tamanho errado.

@@ -12,7 +12,7 @@
 
  .Resultado{display:none; float:left; width: 70%; height: 100px; margin: 20px 15% 10px 15%;}
 
-.Nav{float:left; width: 100%; background: #000;}
+.Nav{float:left; width: 100%; background: rgba(21, 201, 126, 0.945);}
 .Nav li{float:left; width: 25%; text-align: center;list-style: none;}
 .Nav a{display:block; width: 100%; padding: 10px 0; color: #fff; font-weight: bold; text-decoration: none;}
 .Nav a:hover{background: #666;}
@@ -23,3 +23,8 @@
 .FormularioBtn input[type='submit']{display:inline-block; padding: 10px 30px; background: #000000; color: #fff;font-weight: bold; text-align: center; border-radius: 10px;margin:  15px 0;}
 .FormularioBtn{float:left; width:50%; padding-right: 3px;}
 .Formulario{float:left; width: 70%; height: 300px; margin: 20px 15%;}
+
+.TabelaCrud{width: 100%;text-align: center;}
+.TabelaCrud tr:nth-child(2n -1){background: #ccc;}
+.TabelaCrud tr:first-child{background: #000; color: #fff;font-weight: bold; font-size: 20px;}
+.TabelaCrud td{width: 25%;}

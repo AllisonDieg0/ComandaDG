@@ -39,5 +39,13 @@ private function preparedStatements($Query , $Parametros){
   $this->preparedStatements("insert into {$Tabela} values({$Condicao})", $Parametros);
   return $this->Crud;
     }
+
+        #Seleção no  Banco de Dados
+
+        public function selectDB($Campos,$Tabela , $Condicao , $Parametros){
+
+          $this->preparedStatements("select {$Campos} from {$Tabela} {$Condicao}", $Parametros);
+          return $this->Crud;
+            }
  }
 

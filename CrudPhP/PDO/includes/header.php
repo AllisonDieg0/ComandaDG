@@ -15,13 +15,13 @@
 
 <div class = "Banner">
 
-<img src ="images/chicao.jpg" alt="Banner Crud">
+<img src ="images/header.png" alt="Banner Crud">
 
 </div>
 
 <div class="Nav">
 <li><a href="cadastro.php">Cadastro</a></li>
-<li><a href="selecao">Seleção</a></li>
+<li><a href="selecao.php">Seleção</a></li>
 <li><a href="delete">Excluir</a></li>
 <li><a href="atualizacao">Atualizar</a></li>
 </div>

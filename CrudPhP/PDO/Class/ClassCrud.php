@@ -47,5 +47,13 @@ private function preparedStatements($Query , $Parametros){
           $this->preparedStatements("select {$Campos} from {$Tabela} {$Condicao}", $Parametros);
           return $this->Crud;
             }
+
+            #Deletar dados no banco
+
+            public function deleteDB($Tabela , $Condicao , $Parametros){
+
+              $this-> preparedStatements("delete from {$Tabela} where {$Condicao}" , $Parametros);
+              return $this->Crud;
+            }
  }
 

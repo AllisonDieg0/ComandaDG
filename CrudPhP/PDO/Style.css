@@ -3,7 +3,7 @@
 .Banner{ width : 100%; background-color: bisque; display: flex;justify-content: center;
     flex-direction: column;}
 
-.Banner img{width: 50%; width: 450px; height: 250px; padding-left: 450px;}
+.Banner img{width: 50%; width: 450px; height: 250px; padding-left: 700px;}
 
 .Content{float: left; width: 100%; padding: 15px; }
 

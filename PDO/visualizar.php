@@ -15,7 +15,7 @@ $BFetch=$Crud->selectDB(
 );
 $Fetch=$BFetch->fetch(PDO::FETCH_ASSOC);
 ?>
- <h1>Dados do Usuário </h1>
+ <h1> Dados do pedido: </h1>
  <hr>
  <strong>Nome do Cliente: </strong><?php echo $Fetch['nomeCli']; ?><br>
  <strong>Pedido: </strong><?php echo $Fetch['Pedido']; ?><br>

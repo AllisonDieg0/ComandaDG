@@ -25,5 +25,4 @@
 <li><a href="cadastro.php">Cadastro</a></li>
 <li><a href="selecao.php">Seleção</a></li>
 <li><a href="Excluir.php">Excluir</a></li>
-<li><a href="atualizacao">Atualizar</a></li>
 </div>

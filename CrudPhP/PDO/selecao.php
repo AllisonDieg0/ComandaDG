@@ -31,7 +31,6 @@ while($Fetch=$BFetch->fetch(PDO::FETCH_ASSOC)){
         <td><?php echo $Fetch['obs']; ?> </td>
         <td>
             <a href="<?php echo "visualizar.php?id={$Fetch['id']}"; ?>"><img src="images/visu.png" width=30px alt="Visualizar"></a>
-            <a href="atualizacao.php"><img src="images/edit.png" width=30px alt="Editar"></a>
             <a class="Delete" href="<?php echo "delete.php?id={$Fetch['id']}"; ?>"><img src="images/delete.png" width=30px alt="Deletar"></a>
         </td>
     </tr>
